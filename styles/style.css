@@ -1,0 +1,63 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  scroll-behavior: smooth;
+  font-size: 14pt;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #535353;
+  margin: 1rem 0;
+}
+
+body nav .navItem-active {
+  border-bottom: 3px solid #f1ebe5;
+  padding-bottom: 0;
+  color: #836f59;
+}
+body nav .navItem-active:hover {
+  color: #836f59;
+}
+body main {
+  padding-top: 3rem;
+}
+body main .bg {
+  background-color: #f1ebe5;
+}
+body main section.info pre {
+  display: inline-block;
+  padding: 10px;
+  background-color: white;
+  font-size: 0.8rem;
+}
+body main section.about-me ul {
+  list-style-type: none;
+}
+body main section.about-me ul li {
+  border-bottom: 1px solid lightgrey;
+  padding: 5px;
+}
+body main section.about-me ul li::before {
+  content: "✧ ";
+}
+body main section.about-me ul li:hover {
+  background-color: white;
+}
+body main section.about-me ul li ul li {
+  border: none;
+}
+body main section.about-me ul li ul li::before {
+  content: "▴ ";
+}
+body main section.skills h4 {
+  font-size: 1.2rem;
+}/*# sourceMappingURL=style.css.map */
