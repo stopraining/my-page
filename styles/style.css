@@ -49,9 +49,9 @@ body main section.about-me ul li {
 body main section.about-me ul li::before {
   content: "✧ ";
 }
-body main section.about-me ul li:hover {
+/* body main section.about-me ul li:hover {
   background-color: white;
-}
+} */
 body main section.about-me ul li ul li {
   border: none;
 }
@@ -60,4 +60,4 @@ body main section.about-me ul li ul li::before {
 }
 body main section.skills h4 {
   font-size: 1.2rem;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
